@@ -1,6 +1,5 @@
 import styles from './Button.module.scss';
 import clsx from 'clsx';
-import PropTypes from 'prop-types';
 
 const Button = (props) => {
   return (
@@ -9,5 +8,4 @@ const Button = (props) => {
     </button>
   );
 };
-Button.propTypes = {};
 export default Button;
