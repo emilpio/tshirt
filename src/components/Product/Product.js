@@ -65,6 +65,5 @@ Product.propTypes = {
   name: PropTypes.string.isRequired,
   sizes: PropTypes.array.isRequired,
   title: PropTypes.string.isRequired,
-  getPrice: PropTypes.func,
 };
 export default Product;

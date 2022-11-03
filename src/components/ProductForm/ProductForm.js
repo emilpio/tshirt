@@ -26,7 +26,14 @@ const ProductForm = (props) => {
 };
 
 ProductForm.propTypes = {
-  handleSubmit: PropTypes.func,
+  handleSubmit: PropTypes.func.isRequired,
+  sizes: PropTypes.array.isRequired,
+  currentSize: PropTypes.string.isRequired,
+  setCurrentSize: PropTypes.func.isRequired,
+  currentColor: PropTypes.string.isRequired,
+  setCurrentColor: PropTypes.func.isRequired,
+  prepareColorClassName: PropTypes.func.isRequired,
+  colors: PropTypes.array.isRequired,
 };
 
 export default ProductForm;
